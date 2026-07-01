@@ -1,0 +1,54 @@
+canonical_identifier: bkk:krp/KR6i0156/v1
+canonical_location: https://kanripo.org/bkk/KR6i0156/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 佛說長者子制經
+  identifiers:
+    alt_id:
+    - T14n0526
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T14/T14n0526.xml
+    old_id: T14n0526
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit1
+- short: 元
+  label: 元
+  source_xml_id: wit2
+- short: 明
+  label: 明
+  source_xml_id: wit3
+- short: 宮
+  label: 宮
+  source_xml_id: wit4
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0156_000.yaml, hash: 'sha256:1aa4bb8564d5e9493ab911d8903fafe51dcb4593b8b1e816eddd9a63ce51b8b3'}
+  - {seq: 1, filename: KR6i0156_001.yaml, hash: 'sha256:4e085c863692224b07da31e764758e12524540eb26bcc17ede144fc246a655f1'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6i0156_001.markers.yaml, hash: 'sha256:8a4f03366eed12d97833df95a513e95f2fea8dc48d2000c778de2ee0c15b2467'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0156_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 1622
+  label: 佛說長者子制經
+  type: juan
+  level: 1
+hash: sha256:5843f15a51fb556ac2f16d7d90fb134272b409d135d38b9ca6b53ae45c25bb90
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

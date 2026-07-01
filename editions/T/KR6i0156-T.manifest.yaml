@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6i0156/T/v1
+canonical_location: https://kanripo.org/bkk/KR6i0156/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說長者子制經
+  identifiers:
+    krp: KR6i0156
+    cbeta: T14n0526
+    cbeta_old_id: T14n0526
+    authorityid: CA0004033
+    json_key: T0526
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T14/T14n0526.xml
+    old_id: T14n0526
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0156_000-T.yaml, hash: 'sha256:1aa4bb8564d5e9493ab911d8903fafe51dcb4593b8b1e816eddd9a63ce51b8b3'}
+  - {seq: 1, filename: KR6i0156_001-T.yaml, hash: 'sha256:74d48a30659efa74e36a5e606fc8d03c4331a5eff839bcdea88a5c20ea5e6bfc'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6i0156_000-T.markers.yaml, hash: 'sha256:d89a78343fbf1bb9880d5ca0cc4e0740c15daf91b4fd7c123624249a07830920'}
+  - {seq: 1, role: markers, filename: assets/KR6i0156_001-T.markers.yaml, hash: 'sha256:1a61f47e07437dbbd2179133a206128749540a42633070ec242536b82de541cb'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0156_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 1622
+  label: 佛說長者子制經
+  type: juan
+  level: 1
+hash: sha256:4ce4396fa760cfb6f68e0270fd6e90f86e60ebc61e3e682553c071b0f38ba8a5

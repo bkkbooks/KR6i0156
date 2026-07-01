@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6i0156/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說長者子制經
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T14/T14n0526.xml
+    old_id: T14n0526
+hash: sha256:1aa4bb8564d5e9493ab911d8903fafe51dcb4593b8b1e816eddd9a63ce51b8b3
