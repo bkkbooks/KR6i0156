@@ -34,9 +34,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0156_000.yaml, hash: 'sha256:1aa4bb8564d5e9493ab911d8903fafe51dcb4593b8b1e816eddd9a63ce51b8b3'}
-  - {seq: 1, filename: KR6i0156_001.yaml, hash: 'sha256:4e085c863692224b07da31e764758e12524540eb26bcc17ede144fc246a655f1'}
+  - {seq: 1, filename: KR6i0156_001.yaml, hash: 'sha256:74d48a30659efa74e36a5e606fc8d03c4331a5eff839bcdea88a5c20ea5e6bfc'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6i0156_001.markers.yaml, hash: 'sha256:8a4f03366eed12d97833df95a513e95f2fea8dc48d2000c778de2ee0c15b2467'}
+  - {seq: 0, role: markers, filename: assets/KR6i0156_000.markers.yaml, hash: 'sha256:69165a567192dc96f39782ac2ab75289c2e20e38af2cde08a62bf834534699c3'}
+  - {seq: 1, role: markers, filename: assets/KR6i0156_001.markers.yaml, hash: 'sha256:a52ced8fef32b2dad6ae715d4fd5c406b3ccbf37026a99fcf64913ea5bf5e3d0'}
 table_of_contents:
 - ref:
     seq: 1
@@ -48,7 +49,4 @@ table_of_contents:
   label: 佛說長者子制經
   type: juan
   level: 1
-hash: sha256:5843f15a51fb556ac2f16d7d90fb134272b409d135d38b9ca6b53ae45c25bb90
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:140c61192ece106ed6e3981b5d0ba472fa5c5ecf0bf38bc64597352138dba0fe
