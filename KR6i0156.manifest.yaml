@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6i0156/v1
 canonical_location: https://kanripo.org/bkk/KR6i0156/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 佛說長者子制經
   identifiers:
@@ -34,10 +34,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0156_000.yaml, hash: 'sha256:1aa4bb8564d5e9493ab911d8903fafe51dcb4593b8b1e816eddd9a63ce51b8b3'}
-  - {seq: 1, filename: KR6i0156_001.yaml, hash: 'sha256:74d48a30659efa74e36a5e606fc8d03c4331a5eff839bcdea88a5c20ea5e6bfc'}
+  - {seq: 1, filename: KR6i0156_001.yaml, hash: 'sha256:a10b326104dd272ef207adb45fc37ce2437968022fe88d1c7605221ef1de5912'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6i0156_000.markers.yaml, hash: 'sha256:69165a567192dc96f39782ac2ab75289c2e20e38af2cde08a62bf834534699c3'}
-  - {seq: 1, role: markers, filename: assets/KR6i0156_001.markers.yaml, hash: 'sha256:a52ced8fef32b2dad6ae715d4fd5c406b3ccbf37026a99fcf64913ea5bf5e3d0'}
+  - {seq: 1, role: markers, filename: assets/KR6i0156_001.markers.yaml, hash: 'sha256:ba03fe381e10546cc928a2beacd5bc0fc16e06689ee3520a3ec6ddb03580243f'}
 table_of_contents:
 - ref:
     seq: 1
@@ -49,4 +49,7 @@ table_of_contents:
   label: 佛說長者子制經
   type: juan
   level: 1
-hash: sha256:140c61192ece106ed6e3981b5d0ba472fa5c5ecf0bf38bc64597352138dba0fe
+hash: sha256:4ada8ceb1fcf2a3340ab89c6b7158589dc8f292f1f3fe20a9fe2936c55e7bf66
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
